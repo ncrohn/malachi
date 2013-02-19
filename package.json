@@ -10,6 +10,7 @@
   "author": "Nick Crohn",
   "license": "MIT",
   "dependencies": {
-    "socket.io": "~0.9.13"
+    "socket.io": "~0.9.13",
+    "underscore": "~1.4.4"
   }
 }

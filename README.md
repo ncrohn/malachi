@@ -8,5 +8,4 @@ Socket Bus is an event driven service bus that is written on top of Socket.IO. T
 ## Author
 [Nick Crohn](http://nickcrohn.com)
 
-
 ### MIT License
