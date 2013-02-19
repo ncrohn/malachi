@@ -1,10 +1,10 @@
 {
-  "name": "socket-bus",
+  "name": "malachi",
   "version": "0.0.0",
-  "description": "An event driven service bus based on Socket.IO architecture.",
+  "description": "Node.js Real-time Remote Service Messaging System.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha -c -u bdd -R spec"
   },
   "repository": "",
   "author": "Nick Crohn",
@@ -12,5 +12,8 @@
   "dependencies": {
     "socket.io": "~0.9.13",
     "underscore": "~1.4.4"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1"
   }
 }
