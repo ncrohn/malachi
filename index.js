@@ -1,3 +1,3 @@
 module.exports = {
-  ServiceBus: require('./lib/socket-bus')
+  ServiceBus: require('./lib/service-bus')
 };
